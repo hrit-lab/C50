@@ -1,0 +1,38 @@
+
+            h1{
+                color:darkblue;
+            }
+            p{
+                color:olive;
+            }
+            h2{
+                color:red;
+            }
+            *{
+                border:solid;
+            }
+            .header{
+                background-color: aqua;
+                display:flex;
+                justify-content:space-between;
+            }
+            .menu{
+                background-color: yellow;
+                display:flex;
+                justify-content:space-between;
+            }
+            .sitedescription{
+                background-color: lawngreen;
+                display:flex;
+                justify-content:space-between;
+            }
+            .grid{
+                display:flex;
+                flex-wrap:wrap;
+                justify-content:space-evenly;
+            }
+            .footer{
+                display:flex;
+                justify-content:flex-end;
+                background:lightsteelblue;
+            }
